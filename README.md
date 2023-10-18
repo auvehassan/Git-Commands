@@ -6,15 +6,18 @@ A popular version control system used for  Tracking code changes,  Tracking who 
 Git is a powerful version control system that allows you to configure various settings using the `git config` command. Here are some common `git config` commands:
 
 1. **Set User Information**:
-   - `git config --global user.name "Your Name"`: Sets your name for commits.
-   - `git config --global user.email "your@email.com"`: Sets your email for commits.
-   - `git config --global user.signingkey "Your GPG Key ID"`: Sets your GPG key for signing commits.
-```
-git config --global user.name "Your Name"
-```
-```
-git config --global user.email "your@email.com"
-```
+   - Sets your name for commits
+   ```
+   git config --global user.name "Your Name"
+   ```
+   - Sets your email for commits.
+   ```
+   git config --global user.email "your@email.com"
+   ```
+   - Sets your GPG key for signing commits.
+   ```
+   git config --global user.signingkey "Your GPG Key ID"
+   ```
 
 2. **Set Editor**:
    - `git config --global core.editor "editor"`: Sets the default text editor for commit messages.
