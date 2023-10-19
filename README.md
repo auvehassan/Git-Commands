@@ -7,57 +7,105 @@ Git is a powerful version control system that allows you to configure various se
 
 1. **Set User Information**:
    - Sets your name for commits
-   ```
-   git config --global user.name "Your Name"
-   ```
+     ```
+     git config --global user.name "Your Name"
+     ```
    - Sets your email for commits.
-   ```
-   git config --global user.email "your@email.com"
-   ```
+     ```
+     git config --global user.email "your@email.com"
+     ```
    - Sets your GPG key for signing commits.
-   ```
-   git config --global user.signingkey "Your GPG Key ID"
-   ```
+     ```
+     git config --global user.signingkey "Your GPG Key ID"
+     ```
 
 2. **Set Editor**:
-   - `git config --global core.editor "editor"`: Sets the default text editor for commit messages.
+   - Sets the default text editor for commit messages.
+     ```
+     git config --global core.editor "editor"
+     ```
 
 3. **Set Default Branch Name**:
-   - `git config --global init.defaultBranch "main"`: Sets the default branch name for new repositories.
+   - Sets the default branch name for new repositories.
+     ```
+     git config --global init.defaultBranch "main"
+     ```
 
 4. **View Configuration**:
-   - `git config --list`: Lists all Git configuration settings.
-   - `git config user.name`: Displays the user name configuration.
-   - `git config user.email`: Displays the user email configuration.
+   - Lists all Git configuration settings.
+     ```
+     git config --list
+     ```
+   - Displays the user name configuration.
+     ```
+     git config user.name
+     ```
+   - Displays the user email configuration.
+     ```
+     git config user.email
+     ```
 
 5. **Aliases**:
-   - `git config --global alias.st status`: Creates a Git alias. In this example, `st` is an alias for `status`.
+   - Creates a Git alias. In this example, `st` is an alias for `status`.
+     ```
+     git config --global alias.st status
+     ```
 
 6. **Set Merge Tool and Diff Tool**:
-   - `git config --global merge.tool "mergetool"`: Sets the default merge tool.
-   - `git config --global diff.tool "difftool"`: Sets the default diff tool.
+   - Sets the default merge tool.
+     ```
+     git config --global merge.tool "mergetool"
+     ```
+   - Sets the default diff tool.
+     ```
+     git config --global diff.tool "difftool"
+     ```
 
 7. **Set Remote Repository URL**:
-   - `git remote set-url origin https://github.com/username/repo.git`: Changes the URL of the remote repository named "origin."
+   - Changes the URL of the remote repository named "origin."
+     ```
+     git remote set-url origin https://github.com/username/repo.git
+     ```
 
 8. **Set Credential Helper**:
-   - `git config --global credential.helper store`: Configures Git to store credentials in a file.
+   - Configures Git to store credentials in a file.
+     ```
+     git config --global credential.helper store
+     ```
 
 9. **Set Line Endings**:
-   - `git config --global core.autocrlf true`: Automatically converts line endings to CRLF on Windows.
+   - Automatically converts line endings to CRLF on Windows.
+      ```
+     git config --global core.autocrlf true
+     ```
 
 10. **Set Proxy**:
-    - `git config --global http.proxy http://proxy.example.com:8080`: Sets an HTTP proxy.
-    - `git config --global https.proxy https://proxy.example.com:8080`: Sets an HTTPS proxy.
+    - Sets an HTTP proxy.
+      ```
+      git config --global http.proxy http://proxy.example.com:8080
+      ```
+    - Sets an HTTPS proxy.
+      ```
+      git config --global https.proxy https://proxy.example.com:8080
+      ```
 
 11. **Set Color Settings**:
-    - `git config --global color.ui auto`: Enables colored output in the command line.
+    - Enables colored output in the command line.
+      ```
+      git config --global color.ui auto
+      ```
 
 12. **Set File and Directory Exclusions**:
-    - `git config --global core.excludesfile ~/.gitignore_global`: Sets a global `.gitignore` file.
+    - Sets a global `.gitignore` file.
+      ```
+      git config --global core.excludesfile ~/.gitignore_global
+      ```
 
 13. **Set Auto Correct**:
-    - `git config --global help.autocorrect 1`: Enables autocorrection for typos in Git commands.
+    - Enables autocorrection for typos in Git commands.
+      ```
+      git config --global help.autocorrect 1
+      ```
 
 These are just a few examples of what you can configure using `git config`. You can adjust many aspects of Git's behavior to suit your workflow and preferences. Use the `--global` flag to apply settings globally, or omit it to set configuration for a specific repository.
 
