@@ -40,4 +40,11 @@ Stash the changes in a dirty working directory away.
   ```
   git stash drop
   ```
-
+- Create a stash entry (which is a regular commit object) and return its object name,
+  ```
+  git stash create
+  ```
+- Store a given stash created via git stash create
+  ```
+  git stash store
+  ```
