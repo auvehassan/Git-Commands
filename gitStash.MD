@@ -4,7 +4,7 @@ Stash the changes in a dirty working directory away.
   ```
   git stash
   ```
--  Applies the most recent stash back to your working directory.
+- Applies the most recent stash back to your working directory.
   ```
   git stash apply
   ```
