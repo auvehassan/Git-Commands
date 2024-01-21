@@ -1,1 +1,2 @@
-### git-stash - Stash the changes in a dirty working directory away
+# Git-Stash
+Stash the changes in a dirty working directory away.
