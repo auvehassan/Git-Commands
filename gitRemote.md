@@ -1,7 +1,7 @@
 # Git-Remote
 Managing remote repositories in Git involves a set of commands that allow you to add, view, and remove connections to other repositories.
 
-- This command is used to manage the set of remotes that you are tracking with your local repository.
+- Manage the set of remotes that you are tracking with your local repository.
   ```
   git remote
   ```
