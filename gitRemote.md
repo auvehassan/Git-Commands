@@ -41,3 +41,11 @@ Managing remote repositories in Git involves a set of commands that allow you to
   ```
   git push <remote> <branch>
   ```
+- Setting the Remote HEAD to a Specific Branch:
+  ```
+  git remote set-head <remote-name> <branch-name>
+  ```
+- Deleting the Remote HEAD:
+  ```
+  git remote set-head <remote-name> -d
+  ```
