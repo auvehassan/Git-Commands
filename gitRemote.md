@@ -33,6 +33,18 @@ Managing remote repositories in Git involves a set of commands that allow you to
   ```
   git fetch <remote>
   ```
+  or
+  ```
+  git fetch --all
+  ```
+- List all remote branches:
+  ```
+  git brach -r
+  ```
+- List all branches (both local and remote)
+  ```
+  git brach -a
+  ```
 - Fetches the specified remote’s copy of the current branch and immediately merges it into the local copy.
   ```
   git pull <remote> <branch>
